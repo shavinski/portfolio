@@ -1,0 +1,68 @@
+.home {
+    height: 100vh;
+    padding-top: 10vh;
+    background-color: rgb(70, 68, 68);
+    /* background-color: #270049; */
+    /* background-image: url(https://wallpapercave.com/wp/wp8013145.png); */
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.container-connect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    width: 140px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.container-connect a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.connect {
+    display: flex;
+    justify-content: center;
+}
+
+.container-pf {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+}
+
+.profile-photo {
+    background-color: red;
+    border: 2px black solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 595px) {
+
+}

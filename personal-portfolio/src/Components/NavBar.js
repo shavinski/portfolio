@@ -17,24 +17,8 @@ function NavBar() {
     <header>
       <nav ref={navRef} className="navbar">
 
-        <div className="jakob-logo">
-          <div className="circle"></div>
-          <div className="ring"></div>
-          <div className="ring-2"></div>
-          <div className="js">
-            <h1>JS</h1>
-          </div>
-        </div>
-
-        <div class="name">
-          <div class="first-name">
-            <span class="jakob">J</span>
-            <span class="jakob">A</span>
-            <span class="jakob">K</span>
-            <span class="jakob">O</span>
-            <span class="jakob">B</span>
-          </div>
-          <div class="last-name">SHAVINSKI</div>
+        <div className="container-logo">        
+          <div className=""><span className="initial">J</span>akob <span className="initial">S</span>havinski</div>
         </div>
 
         <div>

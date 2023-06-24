@@ -1,116 +1,155 @@
 /******************************* NAVBAR ***************************************/
-:root {
-    --purple: #784284;
-    --darkpurple: #4D3A81;
-    --royalblue: #2D3585;
-    --darkblue: #010a2d;
-    --navy: #0c1640;
-    --lightnavy: #1a2653;
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--black);
+  margin: 0;
 }
 
+.container-logo {
+  font-family: Starwars;
+  margin-left: 20px;
+  font-size: 1.5em;
+}
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: grey;
-    height: 10vh;
+.initial {
+  color: var(--yellow);
+  font-size: 1.3em;
 }
 
 .nav-link {
-    text-decoration: none;
+  text-decoration: none;
+  margin-right: 10px;
 }
 
 .nav-menu {
-    display: flex;
-    list-style-type: none;
-    gap: 8px;
-    margin-right: 10px;
+  font-family: Russo;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+  height: 90vh;
 }
 
 .hamburger {
-    display: none;
-    cursor: pointer;
+  display: none;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: white;
 }
 
 .bar {
-    display: block;
-    width: 30px;
-    height: 3px;
-    margin: 6px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: red
+  background-color: var(--yellow);
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 6px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* For extremely small screen devices (595px and below) */
-@media only screen and (max-width: 595px) {
-    .navbar.active {
-        position: fixed;
-        width: 100vw;
-      }
-    
-      .nav-menu {
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        position: fixed;
-        left: -200%;
-        top: 10vh;
-        gap: 0;
-        background-color: purple;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-      }
-    
-      .nav-item {
-        margin: 16px 0;
-        font-size: 1.5em;
-      }
-    
-      .nav-menu.active {
-        left: 0;
-      }
-    
-      .hamburger {
-        display: block;
-        margin-right: 20px;
-      }
-    
-      .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-      }
-    
-      .hamburger.active .bar:nth-child(1) {
-        transform: translateY(9px) rotate(45deg)
-      }
-    
-      .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-9px) rotate(-45deg)
-      }
+@media only screen and (max-width: 600px) {
+  .navbar.active {
+    position: fixed;
+    width: 100vw;
+  }
 
-    .name {
-        display: none;
-    }
+  .nav-menu {
+    position: fixed;
+    left: -200%;
+    top: 10vh;
+    gap: 0;
+    flex-direction: column;
+    background-color: var(--black);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
 
-    .jakob-logo {
-        margin-left: 20px;
-    }
+  .nav-item {
+    margin: 16px 0;
+    font-size: 1.5em;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    opacity: .9;
+    height: 90vh;
+  }
 
-    .circle {
-        position: absolute;
-        top: 8px;
-        left: 10px;
-        height: 50px;
-        width: 50px;
-        border: 3px solid green;
-        border-radius: 50%;
-    }
+  .hamburger {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(9px) rotate(45deg)
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg)
+  }
 }
 
-/* Small screen devices (600px and above)
-@media only screen and (min-width: 600px) {...}
+/* Small screen devices (600px and above) */
+@media only screen and (max-width: 700px) {
+  .navbar.active {
+    position: fixed;
+    width: 100vw;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -200%;
+    top: 10vh;
+    gap: 0;
+    flex-direction: column;
+    background-color: var(--black);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+    font-size: 1.5em;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    opacity: .9;
+    height: 90vh;
+  }
+
+  .hamburger {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(9px) rotate(45deg)
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg)
+  }
+}
  
 /* Medium screen devices (768px and above) */
 /* @media only screen and (min-width: 768px) {...} */
