@@ -1,0 +1,122 @@
+/******************************* NAVBAR ***************************************/
+:root {
+    --purple: #784284;
+    --darkpurple: #4D3A81;
+    --royalblue: #2D3585;
+    --darkblue: #010a2d;
+    --navy: #0c1640;
+    --lightnavy: #1a2653;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    height: 10vh;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+    margin-right: 10px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 6px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: red
+}
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+    .navbar.active {
+        position: fixed;
+        width: 100vw;
+      }
+    
+      .nav-menu {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        position: fixed;
+        left: -200%;
+        top: 10vh;
+        gap: 0;
+        background-color: purple;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+      }
+    
+      .nav-item {
+        margin: 16px 0;
+        font-size: 1.5em;
+      }
+    
+      .nav-menu.active {
+        left: 0;
+      }
+    
+      .hamburger {
+        display: block;
+        margin-right: 20px;
+      }
+    
+      .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+      }
+    
+      .hamburger.active .bar:nth-child(1) {
+        transform: translateY(9px) rotate(45deg)
+      }
+    
+      .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg)
+      }
+
+    .name {
+        display: none;
+    }
+
+    .jakob-logo {
+        margin-left: 20px;
+    }
+
+    .circle {
+        position: absolute;
+        top: 8px;
+        left: 10px;
+        height: 50px;
+        width: 50px;
+        border: 3px solid green;
+        border-radius: 50%;
+    }
+}
+
+/* Small screen devices (600px and above)
+@media only screen and (min-width: 600px) {...}
+ 
+/* Medium screen devices (768px and above) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Big screen devices (889px and above) */
+/* @media only screen and (min-width: 889px) {...} */
+
+/* Extra big screen devices (1200px and above) */
+/* @media only screen and (min-width: 1200px) {...}  */
