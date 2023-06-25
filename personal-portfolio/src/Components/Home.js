@@ -5,6 +5,13 @@ function Home() {
     return (
         <section className="home" id="home">
             <div className="container-main">
+
+                <div className='container-pf'>
+                    <div className='profile-photo'>
+                        {/* <img src={myPhoto} alt='picture of me'></img> */}
+                    </div>
+                </div>
+                
                 <div className="container-info">
                     {/* <div><h4>Welcome to my portfolio!</h4></div> */}
                     <div><p className='name'>Hi, I'm Jakob Shavinski</p></div>
@@ -32,12 +39,6 @@ function Home() {
                     </div>
                 </div>
 
-
-                <div className='container-pf'>
-                    <div className='profile-photo'>
-                        {/* <img src={myPhoto} alt='picture of me'></img> */}
-                    </div>
-                </div>
             </div>
         </section >
     )
