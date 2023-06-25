@@ -1,16 +1,11 @@
 .home {
-    min-height: 100vh;
-    padding-top: 10vh;
-    background-color: rgb(70, 68, 68);
-    /* background-image: url(https://wallpapercave.com/wp/wp8013145.png);
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+    padding-top: 1vh;
+    background-color: var(--darkgrey);
 }
 
-.container-main {    
+.container-main {
+    min-height: 100vh;
     margin: 20px;
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,18 +43,18 @@
     justify-content: flex-end;
     align-items: center;
     border: 1px black solid;
-    background: rgb(0,0,0);
+    background: rgb(0, 0, 0);
     width: 160px;
-    padding: 10px; 
+    padding: 10px;
     border-radius: 3px;
 }
 
-.container-connect a{
+.container-connect a {
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: white;
+    color: var(--white);
     display: flex;
     gap: 10px;
     align-items: center;
@@ -67,10 +62,10 @@
 
 
 .container-pf {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .profile-photo {
@@ -78,14 +73,35 @@
     background-image: url(../Images/laptopBit.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border: 2px black solid;
-    width: 250px;
     height: 250px;
+    width: 250px;
     border-radius: 50%;
 }
 
-
-@media only screen and (max-width: 595px) {
-
+@media only screen and (max-width: 600px) {
+    .home {
+        background-color: aqua;
+    }
 }
+
+/* Small screen devices (600px and above) */
+@media only screen and (max-width: 700px) {
+    .home {
+        background-color: brown;
+    }
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+    .home {
+        background-color: wheat;
+    }
+}
+
+/* Big screen devices (889px and above) */
+/* @media only screen and (min-width: 889px) {...} */
+
+/* Extra big screen devices (1200px and above) */
+/* @media only screen and (min-width: 1200px) {...}  */
