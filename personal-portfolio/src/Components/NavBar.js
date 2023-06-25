@@ -14,9 +14,8 @@ function NavBar() {
   }
 
   return (
-    <header>
-      <nav ref={navRef} className="navbar">
-
+    
+      <nav ref={navRef} className="container-navbar">
         <div className="container-logo">        
           <div className=""><span className="initial">J</span>akob <span className="initial">S</span>havinski</div>
         </div>
@@ -38,7 +37,6 @@ function NavBar() {
         </div>
 
       </nav>
-    </header >
   );
 }
 

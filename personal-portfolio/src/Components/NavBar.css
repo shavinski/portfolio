@@ -1,5 +1,5 @@
 /******************************* NAVBAR ***************************************/
-.navbar {
+.container-navbar {
   width: 100vw;
   height: 10vh;
   position: fixed;
@@ -42,7 +42,7 @@
 }
 
 .nav-link {
-  color: white;
+  color: var(--white);
 }
 
 .bar {
@@ -81,7 +81,7 @@
   
   .nav-menu.active {
     left: 0;
-    opacity: .9;
+    /* opacity: 1; */
     height: 90vh;
   }
 
@@ -129,7 +129,7 @@
   
   .nav-menu.active {
     left: 0;
-    opacity: .9;
+    opacity: .95;
     height: 90vh;
   }
 
