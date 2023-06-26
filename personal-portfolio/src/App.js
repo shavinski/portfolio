@@ -7,12 +7,8 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-<<<<<<< HEAD
       {/* <Home />
       <AboutMe /> */}
-=======
-      <Home />
->>>>>>> parent of 23e1605 (Finish Home component)
     </div>
   );
 }

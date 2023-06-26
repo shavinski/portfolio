@@ -1,13 +1,4 @@
 .home {
-<<<<<<< HEAD
-    background-color: var(--darkgrey);
-    margin-top: 10vh;
-}
-
-.container-main {
-    height: 100%;
-    margin: 20px;
-=======
     height: 100vh;
     padding-top: 10vh;
     background-color: rgb(70, 68, 68);
@@ -19,10 +10,8 @@
 }
 
 .container {
->>>>>>> parent of 23e1605 (Finish Home component)
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
 }
 
 .container-info {
@@ -52,34 +41,18 @@
 .socials a {
     color: var(--yellow);
     text-decoration: none;
-=======
-    margin: 20px;
-}
-
-.container-info {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
->>>>>>> parent of 23e1605 (Finish Home component)
 }
 
 .container-connect {
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     border: 1px black solid;
     background: rgb(0, 0, 0);
     width: 180px;
     border-radius: 10%;
     padding: 20px;
     border-radius: 10px;
-=======
-    background-color: darkgray;
-    width: 140px;
-    padding: 10px;
-    border-radius: 12px;
->>>>>>> parent of 23e1605 (Finish Home component)
 }
 
 .container-connect a {
@@ -93,7 +66,6 @@
     align-items: center;
 }
 
-<<<<<<< HEAD
 .container-pf {
     display: flex;
     justify-content: center;
@@ -106,24 +78,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-=======
-.connect {
-    display: flex;
-    justify-content: center;
-}
-
-.container-pf {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-top: 40px;
-}
-
-.profile-photo {
-    background-color: red;
-    border: 2px black solid;
-    width: 250px;
->>>>>>> parent of 23e1605 (Finish Home component)
     height: 250px;
     width: 250px;
     border-radius: 50%;

@@ -3,7 +3,6 @@ import './Home.css'
 function Home() {
     return (
         <section className="home" id="home">
-<<<<<<< HEAD
             <div className="container-main">
 
                 <div className='container-pf'>
@@ -23,10 +22,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                
-=======
+            </div>
             <div className="container">
->>>>>>> parent of 23e1605 (Finish Home component)
                 <div className="container-info">
                     {/* <div><h4>Welcome to my portfolio!</h4></div> */}
                     <div><h1>Hi! I'm Jakob Shavinski</h1></div>
