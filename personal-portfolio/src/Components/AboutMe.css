@@ -1,3 +1,5 @@
-h1 {
-    color: black;
+.aboutme-title {
+    font-size: 4em;
+    -webkit-text-stroke: 1px var(--yellow);
+    color: var(--darkgrey);
 }

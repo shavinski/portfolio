@@ -1,83 +1,8 @@
-.home {
-<<<<<<< HEAD
-    height: 100vh;
-    padding-top: 10vh;
-    background-color: rgb(70, 68, 68);
-    /* background-color: #270049; */
-    /* background-image: url(https://wallpapercave.com/wp/wp8013145.png); */
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.container {
-=======
-    padding-top: 1vh;
-    background-color: var(--darkgrey);
-}
-
-.container-main {
-    min-height: 100vh;
-    margin: 20px;
->>>>>>> parent of 0a801c4 (some slight change)
+.container-profile {
     display: flex;
-    justify-content: center;
-    row-gap: 10px;
-}
-
-.container-info {
-    margin-bottom: 15px;
-}
-
-.name {
-    font-family: Russo;
-    font-size: 2.5em;
-}
-
-.intro {
-    margin-top: 10px;
-    font-family: Russo;
-    font-size: 1.1em;
-}
-
-.container-socials {
-    display: flex;
-    gap: 20px;
-}
-
-.socials a {
-    color: var(--yellow);
-    text-decoration: none;
-}
-
-.container-connect {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    border: 1px black solid;
-    background: rgb(0, 0, 0);
-    width: 160px;
-    padding: 10px;
-    border-radius: 3px;
-}
-
-.container-connect a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: var(--white);
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-
-.container-pf {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
+    margin: var(--m-1);
 }
 
 .profile-photo {
@@ -86,34 +11,85 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    border: 2px black solid;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    border-radius: 30%;
+    background-color: var(--yellow);
 }
 
-@media only screen and (max-width: 600px) {
-    .home {
-        background-color: aqua;
+.container-socials {
+    display: flex;
+    margin-top: var(--m-1);
+    gap: 20px;
+}
+
+.social-logo {
+    cursor: pointer;
+    color: var(--white);
+}
+
+.container-welcome {
+    margin: var(--m-2);
+    background-color: black;
+    padding: var(--p-2);
+    border-radius: 10px;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    max-width: 80%;
+}
+
+.info-intro {
+    font-size: 2em;
+}
+
+.info-details {
+    font-size: 1.2em;
+}
+
+.connect {
+    margin: var(--m-3);
+    padding: var(--p-1);
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.connect:hover {
+    cursor: pointer;
+}
+
+
+/* small */
+@media screen and (min-width: 35.5em) {
+    .container-info {
+        max-width: 60%;
     }
 }
 
-/* Small screen devices (600px and above) */
-@media only screen and (max-width: 700px) {
-    .home {
-        background-color: brown;
-    }
+/* medium */
+@media screen and (min-width: 48em) {
+    /* .container-info {
+        max-width: 60%;
+    } */
 }
 
-/* Medium screen devices (768px and above) */
-@media only screen and (min-width: 768px) {
-    .home {
-        background-color: wheat;
-    }
-}
+/* large */
+/* @media screen and (min-width: 64em) */
 
-/* Big screen devices (889px and above) */
-/* @media only screen and (min-width: 889px) {...} */
+/* x-large */
+/* @media screen and (min-width: 80em) */
 
-/* Extra big screen devices (1200px and above) */
-/* @media only screen and (min-width: 1200px) {...}  */
+/* xx-large */
+/* @media screen and (min-width: 120em) */
+
+
+
+
+
