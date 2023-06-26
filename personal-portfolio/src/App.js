@@ -8,13 +8,8 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-<<<<<<< HEAD
       <Home />
-      {/* <AboutMe /> */}
-=======
-      {/* <Home />
-      <AboutMe /> */}
->>>>>>> af95267dfad398b90ededa5d857ba1d274182a6e
+      <AboutMe />
     </div>
   );
 }
