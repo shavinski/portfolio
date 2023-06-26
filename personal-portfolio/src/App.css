@@ -148,6 +148,8 @@ table {
   --p-3: 30px;
   --p-4: 40px;
   --p-5: 50px;
+
+  --font-title: 3em
 }
 
 @font-face {
@@ -179,12 +181,7 @@ body {
   font-family: Russo;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 3em 1.5em 2em;
+.title {
+  margin-bottom: var(--m-3);
 }
-
 

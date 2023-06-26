@@ -1,5 +1,32 @@
+.container-aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3em 0 2em;
+}
+
 .aboutme-title {
-    font-size: 4em;
+    font-size: var(--font-title);
     -webkit-text-stroke: 1px var(--yellow);
     color: var(--darkgrey);
+}
+
+.container-about-info {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.aboutme-title {
+    text-align: left;
+}
+
+@media screen and (min-width: 35.5em) {
+    .container-about-info {
+        max-width: 60%;
+    }
 }
