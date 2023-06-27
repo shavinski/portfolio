@@ -129,13 +129,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /*******************************************/
 
 :root {
-  --black: black;
-  --darkgrey: rgb(54, 52, 52);
-  --white: white;
-  --yellow: rgb(217, 196, 39);
+  --primary: black;
+  --secondary: rgb(54, 52, 52);
+  --secondary-light: white;
+  --contrast: rgb(217, 196, 39);
 
   --m-1: 10px;
   --m-2: 20px;
@@ -149,7 +150,9 @@ table {
   --p-4: 40px;
   --p-5: 50px;
 
-  --font-title: 3em
+  --font-title: 3em;
+  --font-heading: 2em;
+  --font-normal: 1.2em
 }
 
 @font-face {
@@ -176,12 +179,11 @@ html {
 
 body {
   width: 100%;
-  background-color: var(--darkgrey);
-  overflow-x: hidden;  
+  background-color: var(--secondary);
+  overflow-x: hidden;
   font-family: Russo;
 }
 
 .title {
   margin-bottom: var(--m-3);
 }
-

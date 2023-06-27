@@ -14,7 +14,9 @@ function AboutMe() {
                 </div>
 
                 <div className='container-about-knowledge'>
-                    
+                    <div>Front-end</div>
+                    <div>Back-end</div>
+                    <div>Soft-Skills</div>
                 </div>
             </div>
 

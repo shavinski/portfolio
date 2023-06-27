@@ -3,8 +3,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 3em 0 2em;
-  }
+    margin: 3em 1em 2em;
+}
 
 .container-profile {
     display: flex;
@@ -22,7 +22,7 @@
     width: 220px;
     height: 220px;
     border-radius: 30%;
-    background-color: var(--yellow);
+    background-color: var(--contrast);
 }
 
 .container-socials {
@@ -33,7 +33,7 @@
 
 .social-logo {
     cursor: pointer;
-    color: var(--white);
+    color: var(--secondary-light);
 }
 
 .container-welcome {
@@ -51,11 +51,11 @@
 }
 
 .info-intro {
-    font-size: 2em;
+    font-size: var(--font-heading);
 }
 
 .info-details {
-    font-size: 1.2em;
+    font-size: var(--font-normal);
 }
 
 .connect {
@@ -77,7 +77,7 @@
 /* small */
 @media screen and (min-width: 35.5em) {
     .container-info {
-        max-width: 60%;
+        /* max-width: 60%; */
     }
 }
 
@@ -96,8 +96,3 @@
 
 /* xx-large */
 /* @media screen and (min-width: 120em) */
-
-
-
-
-
