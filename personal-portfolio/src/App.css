@@ -150,9 +150,13 @@ table {
   --p-4: 40px;
   --p-5: 50px;
 
-  --font-title: 3em;
-  --font-heading: 2em;
-  --font-normal: 1.2em
+  --font-large: 3em;
+  --font-medium: 2em;
+  --font-small: 1.2em;
+
+  --max-width-text: 80%;
+
+  --gap-standard: 20px;
 }
 
 @font-face {
@@ -179,6 +183,14 @@ body {
   font-family: Russo;
 }
 
+button {
+  font-family: Russo;
+}
+
 .title {
+  font-size: var(--font-large);
+  -webkit-text-stroke: 1px var(--contrast);
+  color: var(--secondary);
   margin-bottom: var(--m-3);
 }
+

@@ -28,7 +28,7 @@
 .container-socials {
     display: flex;
     margin-top: var(--m-1);
-    gap: 20px;
+    gap: var(--gap-standard);
 }
 
 .social-logo {
@@ -46,16 +46,16 @@
 .container-info {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
-    max-width: 65%;
+    gap: var(--gap-standard);
+    max-width: var(--max-width-text);
 }
 
 .info-intro {
-    font-size: var(--font-heading);
+    font-size: var(--font-medium);
 }
 
 .info-details {
-    font-size: var(--font-normal);
+    font-size: var(--font-small);
 }
 
 .connect {
@@ -66,7 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: var(--gap-standard);
 }
 
 .connect:hover {

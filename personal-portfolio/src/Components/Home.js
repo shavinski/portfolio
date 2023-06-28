@@ -24,7 +24,7 @@ function Home() {
 
                 <div className='container-info'>
                     <h1 className='info-intro'>Hi, my name is Jakob Shavinski</h1>
-                    <p className='info-details'>I am a front end engineer with a passion for learning and exploring new technologies.</p>
+                    <p className='info-details'>I am a full-stack engineer with a passion for learning and exploring new technologies.</p>
                 </div>
 
                 <div className='container-connect'>
