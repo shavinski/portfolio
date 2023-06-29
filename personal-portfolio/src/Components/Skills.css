@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: var(--m-3);
+    margin: var(--m-4);
 }
 
 .container-coding-langs svg {
