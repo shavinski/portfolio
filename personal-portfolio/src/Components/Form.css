@@ -3,11 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: var(--max-width-text);
 }
 
 form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     background-color: aquamarine;
