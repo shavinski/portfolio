@@ -1,29 +1,39 @@
-.container-contact {
+form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /* max-width: var(--max-width-text); */
+    gap: 20px;
 }
 
-input[type=text],
-select,
-textarea {
-    width: 100%;
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.form-input {
+    font-family: Russo;
+    border-radius: 7px;
     padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    font-size: var(--font-small);
 }
 
-label {
-    padding: 12px 12px 3px 0;
-    display: inline-block;
+.form-label {
+    font-size: var(--font-small);
 }
 
 form button {
-    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
     padding: var(--p-1);
-    margin: 20px 0 0 0;
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: 7px;
+    font-size: 1.3em;
 }
+
+
+
+
+
+
