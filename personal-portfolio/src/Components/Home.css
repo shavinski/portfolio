@@ -1,3 +1,4 @@
+
 .container-home {
     padding-top: 10vh;
     height: 90vh;
@@ -24,6 +25,13 @@
     height: 220px;
     border-radius: 30%;
     background-color: var(--contrast);
+}
+
+.blob {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: white;
 }
 
 .container-socials {
