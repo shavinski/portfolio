@@ -30,6 +30,7 @@ form button {
     padding: var(--p-1);
     border-radius: 7px;
     font-size: 1.3em;
+    margin-bottom: 2em;
 }
 
 

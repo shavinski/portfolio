@@ -1,4 +1,6 @@
 .container-home {
+    padding-top: 10vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
