@@ -134,8 +134,8 @@ table {
 
 :root {
   --primary: black;
-  --secondary: rgb(40, 40, 40);
-  --secondary-middle: rgb(85, 85, 85);
+  --secondary: rgb(29, 29, 29);
+  --secondary-middle: rgb(50, 50, 50);
   --secondary-light: white;
   --contrast: rgb(217, 196, 39);
 

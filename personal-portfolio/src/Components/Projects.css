@@ -7,7 +7,7 @@
 
 .project-card {
     --img-scale: 1.001;
-    --title-color: black;
+    --title-color: white;
     --link-icon-translate: -20px;
     --link-icon-opacity: 0;
     position: relative;
@@ -19,6 +19,7 @@
     overflow: hidden;
     max-width: var(--max-width-text);
     margin: 3em 1em 3em;
+    box-shadow: 0 15px 10px black
 }
 
 .project-card a::after {
@@ -49,7 +50,7 @@
 }
 
 .project-card img {
-    width: 1000px;
+    width: 600px;
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;

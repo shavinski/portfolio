@@ -19,10 +19,6 @@ function Home() {
                     </div>
                 </div>
 
-                {/* <div className='container-welcome'>
-                    <h1>Welcome to my portfolio!</h1>
-                </div> */}
-
                 <div className='container-info'>
                     <h1 className='info-intro'>Hi, my name is Jakob Shavinski</h1>
                     <p className='info-details'>I am a full-stack engineer with a passion for learning and exploring new technologies.</p>

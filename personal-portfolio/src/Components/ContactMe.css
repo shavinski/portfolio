@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .container-contact {
@@ -10,9 +11,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: em 1em 3em;
+    margin: 3em 1em 3em;
     max-width: var(--max-width-text);
-    background-color: black;
     padding: var(--p-1);
     border-radius: 20px;
 }
@@ -23,7 +23,7 @@
     align-items: flex-start;
     gap: 20px;
     font-size: var(--font-small);
-    margin: 2em 1em 2em ;
+    margin: 0em 1em 2em ;
 }
 
 .contact-info {
