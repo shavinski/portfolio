@@ -26,13 +26,6 @@
     background-color: var(--contrast);
 }
 
-.blob {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background-color: white;
-}
-
 .container-socials {
     display: flex;
     margin-top: var(--m-1);
@@ -40,19 +33,23 @@
 }
 
 .social-logo {
+    text-decoration: none;
+    color: white;
     cursor: pointer;
     color: var(--secondary-light);
 }
 
 .container-info {
     display: flex;
+    line-height: 25px;
     flex-direction: column;
     gap: var(--gap-standard);
     width: min(90%, 600px);
 }
 
 .info-intro {
-    font-size: var(--font-medium);
+    font-size: clamp(1.9em, 1vw + 1rem, 2.5em);
+    line-height: 38px;
 }
 
 .info-details {
@@ -60,11 +57,13 @@
 }
 
 .connect {
+    text-decoration: none;
+    color: white;
     margin: var(--m-3);
     padding: var(--p-1);
     border-radius: 10px;
     background-color: var(--secondary-middle);
-    box-shadow: 0 8px 10px black;
+    box-shadow: 0 8px 20px black;
     display: flex;
     justify-content: center;
     align-items: center;

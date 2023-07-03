@@ -8,7 +8,7 @@
 
 .container-coding-langs {
     background-color: var(--secondary-middle);
-    box-shadow: 0 8px 15px black;
+    box-shadow: 0 8px 20px black;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     width: min(90%, 600px);
@@ -36,7 +36,7 @@
 .button-resume button {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 10px;
     padding: var(--p-2);
     border-radius: 20px;

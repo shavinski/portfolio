@@ -194,7 +194,7 @@ section {
 
 .title {
   font-size: var(--font-large);
-  -webkit-text-stroke: 1px var(--contrast);
+  -webkit-text-stroke: .6px var(--contrast);
   color: var(--secondary);
   margin: var(--m-3);
   text-shadow: 0px 0px 1.5vw rgb(255, 232, 60);

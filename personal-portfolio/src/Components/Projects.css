@@ -6,84 +6,62 @@
 }
 
 .project-card {
-    --img-scale: 1.001;
-    --title-color: white;
-    --link-icon-translate: -20px;
-    --link-icon-opacity: 0;
-    position: relative;
-    border-radius: 16px;
-    box-shadow: none;
-    background: #fff;
-    transform-origin: center;
-    transition: all 0.4s ease-in-out;
-    overflow: hidden;
-    max-width: var(--max-width-text);
-    margin: 3em 1em 3em;
-    box-shadow: 0 15px 10px black
-}
-
-.project-card a::after {
-    position: absolute;
-    inset-block: 0;
-    inset-inline: 0;
-    cursor: pointer;
-    content: "";
-}
-
-/* basic article elements styling */
-.project-card h2 {
-    margin: 0 0 18px 0;
-    font-size: var(--font-medium);
-    letter-spacing: 0.06em;
-    color: var(--primary);
-}
-
-.project-card p {
-    margin: 0 0 12px 0;
-}
-
-.project-image {
-    margin: 0;
-    padding: 0;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-}
-
-.project-card img {
-    width: 600px;
-    max-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    transform: scale(var(--img-scale));
-    transition: transform 0.5s ease-in-out;
-}
-
-.project-body {
-    padding: 24px;
-    color: var(--primary);
-}
-
-.link-container {
     display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.link-container a {
-    text-decoration: none;
-    color: var(--primary);
-}
-
-.project-card:has(:hover, :focus) {
-    --img-scale: 1.1;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-}
-
-.projects-cards-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    max-width: var(--max-width-text);
-    gap: 24px;
+    justify-content: center;
+    width: min(90%, 600px);
+    margin: 3em 1em 3em;
 }
+
+.card-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+.project-one {
+    background-image: url(https://eletiofe.com/wp-content/uploads/2022/12/339872-twitter-blue-explained-what-is-it-how-much-does-it-cost.jpg);
+}
+
+.project-two {
+    background-image: url(https://getfive.com/wp-content/uploads/2019/08/job-searching.jpg);
+}
+
+.card-info {
+    background-color: var(--secondary-middle);
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 10px 15px black;
+}
+
+.card-info h2 {
+    font-size: var(--font-medium);
+    margin-bottom: 12px;
+}
+
+.card-info p {
+    font-size: var(--font-small);
+    margin-bottom: 8px;
+}
+
+.card-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--contrast);
+    padding: 5px;
+    width: 70px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: var(--font-small);
+    transition: transform 0.2s ease;
+}
+
+.card-btn:hover {
+    transform: scale(1.1);
+}
+
+.project-card:has()

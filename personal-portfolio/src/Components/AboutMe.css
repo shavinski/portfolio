@@ -39,7 +39,7 @@
     align-items: center;
     gap: var(--gap-standard);
     background-color: var(--secondary-middle);
-    box-shadow: 0 8px 15px black;
+    box-shadow: 0 8px 20px black;
     padding: var(--p-4);
     border-radius: 20px;
 }
